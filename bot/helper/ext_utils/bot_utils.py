@@ -1,4 +1,3 @@
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
 #!/usr/bin/env python3
 import platform
 from base64 import b64encode
