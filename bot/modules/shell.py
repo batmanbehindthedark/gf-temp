@@ -37,6 +37,6 @@ async def shell(_, message):
 
 
 bot.add_handler(MessageHandler(shell, filters=command(
-    BotCommands.ShellCommand) & CustomFilters.sudor))
+    BotCommands.ShellCommand) & CustomFilters.sudo))
 bot.add_handler(EditedMessageHandler(shell, filters=command(
     BotCommands.ShellCommand) & CustomFilters.sudo))
